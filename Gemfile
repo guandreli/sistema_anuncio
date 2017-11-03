@@ -7,8 +7,14 @@ gem 'rails', '4.2.5'
 gem 'sqlite3'
 # Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff http://rails-i18n.org
 gem 'rails-i18n'
+# Generate Entity-Relationship Diagrams for Rails applications http://voormedia.github.io/rails-erd/
+gem "rails-erd"
 # Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/
 gem 'devise'
+# The most popular front-end framework for developing responsive, mobile first projects on the web.
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
+# Rails gem of the Bootstrap based admin theme SB Admin 2.
+gem 'bootstrap_sb_admin_base_v2'
 # Translations for the devise gem
 gem 'devise-i18n'
 # Retrieve the binding of a method's caller in MRI 1.9.2+
